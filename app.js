@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({
 }))
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://tasker.onrender.com"],
+    origin: ["http://localhost:3000", "https://tasker-i75x.onrender.com"],
   })
 );
 //--------------------------------User's-item-Schema---------------------------
