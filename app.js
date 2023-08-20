@@ -16,11 +16,6 @@ app.use(express.static("public"))
 app.use(bodyParser.urlencoded({
   extended: true
 }))
-app.use(
-  cors({
-    origin: ["http://localhost:3000", "https://tasker-i75x.onrender.com"],
-  })
-);
 //--------------------------------User's-item-Schema---------------------------
 const itemsSchema = new mongoose.Schema({
   item:String,
